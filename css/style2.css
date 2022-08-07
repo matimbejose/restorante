@@ -1,0 +1,18 @@
+/* CSS Document */
+*{margin:0; padding:0; border:0;}
+#sub{ border-bottom:solid 1px #999;}
+#conteudo{width:600px; height:auto; margin:auto; padding-top:50px;}
+#conteudo .titulo{width:auto; height:auto; float:left; margin:0 0 15px 0; font:12px Verdana, Arial, Helvetica, sans-serif; color:#333; font-weight:bold;}
+#conteudo .div{width:370px; height:auto; float:left; background:#E8E8FF;}
+#conteudo .div .busca{width:300px; height:auto; float:left; padding:8px 12px; margin:2px 0 2px 2px; border:1px solid #CCC; border-right:hidden; outline:none; font:12px Verdana, Arial, Helvetica, sans-serif; color:#333;}
+#conteudo .div .btn{width:32px; height:32px; float:left; margin:2px 0 0 0; background:#FFF; background-image:url(../img/lupa.png); background-repeat:no-repeat; background-position:7px 7px; border:1px solid #CCC; border-left:hidden; cursor:pointer;}
+
+.ac_results{padding:0; border:1px solid #BBB; background-color:#FFF; overflow:hidden; z-index:99999;}
+.ac_results ul{width:100%; list-style-position:outside; list-style:none; padding:0; margin:0;}
+.ac_results li{margin:0px; padding:2px 5px; cursor:default; display:block; font:menu; font-size:12px; line-height:16px; overflow:hidden;}
+.ac_loading{background:white url('indicator.gif') right center no-repeat;}
+.ac_odd{background-color:#F9F9F9;}
+.ac_over{background-color:#0C3; color:#FFF;}
+.res{width:auto; height:20px; float:left;}
+.res .img{width:50px; height:50px; float:left;}
+.res .nome{width:auto; height:50px; float:left; margin:0 0 0 5px;}
